@@ -4,7 +4,8 @@
   "author": "Christian Schmeichel",
   "license": "MIT",
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "PORT=8080 node ./bin/www",
+    "nodeshift": "nodeshift"
   },
   "dependencies": {
     "amphtml-validator": "^1.0.23",
